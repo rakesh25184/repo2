@@ -1,0 +1,1000 @@
+ 1001  cd Desktop/hydra/dsl-iisc-codd-data-gen-1e99896fa8eb/
+ 1002  git status
+ 1003  ls
+ 1004  cd codd-data-gen/
+ 1005  cd resources/
+ 1006  git status .
+ 1007  git add cdgclient/postgres.properties
+ 1008  git push
+ 1009  git add cdgclient/postgres.properties
+ 1010  git commit -m "updated postgres.properties file"
+ 1011  git push
+ 1012  cd 
+ 1013  cd Desktop/hydra/dsl-iisc-codd-data-gen-1e99896fa8eb/
+ 1014  cd src
+ 1015  cd codd-data-gen/
+ 1016  ls
+ 1017  cd src
+ 1018  ls
+ 1019  git status
+ 1020  git status .
+ 1021  git add in/ac/iisc/cds/dsl/cdgvendor/constants/PostgresVConfig.java
+ 1022  git commit -m in/ac/iisc/cds/dsl/cdgvendor/model/
+ 1023  git commit -m in/ac/iisc/cds/dsl/cdgvendor/constants/
+ 1024  git add  in/ac/iisc/cds/dsl/cdgvendor/constants/
+ 1025  git status
+ 1026  git add  in/ac/iisc/cds/dsl/cdgvendor/model/
+ 1027  git commit -m "new updates"
+ 1028  git push
+ 1029  git add cdgvendor/postgres.properties
+ 1030  cd ..
+ 1031  cd resources/cdgvendor/
+ 1032  ls
+ 1033  git add postgres.properties 
+ 1034  git commit -m "postgres.properties vendor side"
+ 1035  git push
+ 1036  ls
+ 1037  cd input/
+ 1038  ls
+ 1039  cd postgres/
+ 1040  ls
+ 1041  git add columnDataType.info 
+ 1042  git add fkpkMap.info
+ 1043  git commit -m "input files "
+ 1044  git push
+ 1045  export PATH=$PATH:'/home/tarun/Desktop/gradle-6.8.3-all/gradle-6.8.3/bin' 
+ 1046  echo $PATH
+ 1047  gradle -v
+ 1048  cd 
+ 1049  sudo apt install maven
+ 1050  mvn -version
+ 1051  sudo -i
+ 1052  exit
+ 1053  history
+ 1054  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z"
+ 1055  sudo dpkg -i chrome.deb
+ 1056  chrome
+ 1057  google-chrome
+ 1058  sudo apt-get update
+ 1059  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+ 1060  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+ 1061  sudo apt-key fingerprint 0EBFCD88
+ 1062  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z"
+ 1063  subl /home/tarun/Desktop/hydra/dsl-iisc-codd-data-gen-1e99896fa8eb/codd-data-gen/hs_err_pid14331.log
+ 1064  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z"
+ 1065  cd git/postgresql9_6/ins
+ 1066  cd git/postgresql9_6/install/bin
+ 1067  ./psql tpcds1gb
+ 1068  history | grep "psql"
+ 1069  history | grep "pg_ctl"
+ 1070  ./pg_ctl -D /home/tarun/git/postgresql9_6/install/data -l logfile start
+ 1071  ./psql tpcds1gb;
+ 1072  ./psql tpcds1gb -c "copy temp(a,b,c) FROM '/home/tarun/Downloads/table.csv' CSV DELIMITER ','
+ 1073  ;
+ 1074  "
+ 1075  "
+ 1076  ;
+ 1077  ;
+ 1078  "
+ 1079  ./psql tpcds1gb;
+ 1080  ./pg_ctl -D /home/tarun/git/postgresql9_6/install/data -l logfile stop
+ 1081  ./pg_ctl -D /home/tarun/git/postgresql9_6/install/data -l logfile start
+ 1082  ./psql tpcds1gb;
+ 1083  sync; echo 3 > /proc/sys/vm/drop_caches 
+ 1084  ./pg_ctl -D /home/tarun/git/postgresql9_6/install/data -l logfile stop
+ 1085  sudo sync; echo 3 > /proc/sys/vm/drop_caches 
+ 1086  ./pg_ctl -D /home/tarun/git/postgresql9_6/install/data -l logfile start
+ 1087  ./psql tpcds1gb;
+ 1088  ./pg_ctl -D /home/tarun/git/postgresql9_6/install/data -l logfile stop
+ 1089  ./pg_ctl -D /home/tarun/git/postgresql9_6/install/data -l logfile start
+ 1090  ./psql tpcds1gb;
+ 1091  ./pg_ctl -D /home/tarun/git/postgresql9_6/install/data -l logfile stop
+ 1092  ./pg_ctl -D /home/tarun/git/postgresql9_6/install/data -l logfile start
+ 1093  ./psql tpcds1gb;
+ 1094  ./pg_ctl -D /home/tarun/git/postgresql9_6/install/data -l logfile stop
+ 1095  ./pg_ctl -D /home/tarun/git/postgresql9_6/install/data -l logfile start
+ 1096  ./psql tpcds1gb;
+ 1097  ./pg_ctl -D /home/tarun/git/postgresql9_6/install/data -l logfile stop
+ 1098  ./pg_ctl -D /home/tarun/git/postgresql9_6/install/data -l logfile start
+ 1099  ./psql tpcds1gb;
+ 1100  ./pg_ctl -D /home/tarun/git/postgresql9_6/install/data -l logfile stop
+ 1101  ./pg_ctl -D /home/tarun/git/postgresql9_6/install/data -l logfile start
+ 1102  ./pg_ctl -D /home/tarun/git/postgresql9_6/install/data -l logfile st
+ 1103  ./psql tpcds1gb;
+ 1104  ./pg_ctl -D /home/tarun/git/postgresql9_6/install/data -l logfile stop
+ 1105  ./pg_ctl -D /home/tarun/git/postgresql9_6/install/data -l logfile start
+ 1106  ./psql tpcds1gb;
+ 1107  exit;
+ 1108  jupyter notebook
+ 1109  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg
+ 1110  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+ 1111  echo   "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+ 1112    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+ 1113  sudo apt-get update
+ 1114  sudo apt-get install docker-ce docker-ce-cli containerd.io
+ 1115  sudo apt-get install docker-ce=5:20.10.5~3-0~ubuntu-bionic docker-ce-cli=5:20.10.5~3-0~ubuntu-bionic containerd.io
+ 1116  cd Desktop/
+ 1117  ls
+ 1118  cd 4th\ sem/
+ 1119  ls
+ 1120  cd PODS/
+ 1121  ls
+ 1122  tree .
+ 1123  sudo apt  install tree
+ 1124  tree .
+ 1125  cd Example/
+ 1126  subl sudo apt  install tree
+ 1127  nano src/main/java/hello/Application.java
+ 1128  cat src/main/java/hello/Application.java
+ 1129  cat src/main/java/helloworld/Application.java
+ 1130  cd src
+ 1131  cd hello-world/
+ 1132  cd src/main/java/com/demo/helloworld/
+ 1133  subl HelloWorldApplication.java 
+ 1134  cd /Desktop/4th sem/PODS/Example/4
+ 1135  cd /Desktop/4th sem/PODS/Example/
+ 1136  cd
+ 1137  cd Desktop/4th sem/PODS/Example/
+ 1138  cd Desktop/4th \sem/PODS/Example/
+ 1139  cd Desktop/4th\ sem/PODS/Example/
+ 1140  ./mvnw hello-world
+ 1141  mvn install
+ 1142  cd hello-world/
+ 1143  subl pom.xml 
+ 1144  mvn -version
+ 1145  sudo nano /etc/profile.d/maven.sh
+ 1146  sudo chmod +x /etc/profile.d/maven.sh
+ 1147  source /etc/profile.d/maven.sh
+ 1148  mvn -version
+ 1149  ./mvnw package && java -jar target/gs-spring-boot-docker-0.1.0.jar
+ 1150  java -jar target/hello-world.jar
+ 1151  tree .
+ 1152  java -jar target
+ 1153  java -jar target/hello-world-0.0.1-SNAPSHOT.jar
+ 1154  dcd ..
+ 1155  cd ..
+ 1156  sudo docker hello-world
+ 1157  sudo docker run hello-world
+ 1158  sudo docker build hello-world
+ 1159  cd hello-world/
+ 1160  tree .
+ 1161  subl Docker
+ 1162  subl Dockerfile
+ 1163  cd ..
+ 1164  docker build -t hello-worl
+ 1165  docker build -t hello-world
+ 1166  docker build -t tarun/hello-world
+ 1167  ls
+ 1168  cd hello-world/
+ 1169  docker build -t tarun/hello-world
+ 1170  docker build -t tarun/hello-world .
+ 1171  sudo docker build -t tarun/hello-world .
+ 1172  ps aux | grep java
+ 1173  docker image ls
+ 1174  sudo -i
+ 1175  suddo docker image ls
+ 1176  sudo docker image ls
+ 1177  docker run 7eda2e7c6de7 &
+ 1178  sudo docker run 7eda2e7c6de7 &
+ 1179  ps aux | grep java
+ 1180  docker ps
+ 1181  sudo docker ps
+ 1182  docker inspect
+ 1183  docker inspect 7eda2e7c6de71
+ 1184  sudo docker inspect 7eda2e7c6de7
+ 1185  sudo docker image ls
+ 1186  sudo docker ls
+ 1187  sudo docker ps
+ 1188  sudo docker inspect 76b890bb2713
+ 1189  sudo docker ps
+ 1190  docker stop 76b890bb2713
+ 1191  sudo docker stop 76b890bb2713
+ 1192  sudo docker ps
+ 1193  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z"
+ 1194  cd git/postgresql9_6/install/bin/
+ 1195  ./pg_ctl -D /home/tarun/git/postgresql9_6/install/data -l logfile start
+ 1196  ./psql tpcds1gb;
+ 1197  make
+ 1198  ./dsdgen –scale 100 –dir /tmp –parallel 4 –child 1 & dsdgen –scale 100 –dir /tmp –parallel 4 –child 2 & dsdgen –scale 100 –dir /tmp –parallel 4 –child 3 & dsdgen –scale 100 –dir /tmp –parallel 4 –child 4 &
+ 1199  ./dsdgen -scale 100 -dir /tmp -delimiter '|'
+ 1200  ./dsdgen -scale 100 -dir '/home/tarun/Desktop/tpcds_data_generator/100 GB/temp'  -delimiter '|'
+ 1201  ./dsdgen -scale 100 -dir '/home/tarun/Desktop/tpcds_data_generator/100 GB/temp'   -delimiter '|'
+ 1202  dsdgen -h
+ 1203  mske
+ 1204  make
+ 1205  ./dsdgen -scale 100 -dir '/home/tarun/Desktop/tpcds_data_generator/100 GB/temp'   -delimiter | ;
+ 1206  ./dsdgen -scale 100 -dir '/home/tarun/Desktop/tpcds_data_generator/100 GB/temp'   -delimiter '|'
+ 1207  ./dsdgen -scale 100 -dir '/home/tarun/Desktop/tpcds_data_generator/100 GB/temp'   
+ 1208  dsdsdgen -h4
+ 1209  dsdsdgen -h
+ 1210  make
+ 1211  ./dsdgen -scale 10 -dir /tmp -delimiter | ;
+ 1212  ./dsdgen -scale 10 -dir /tmp -delimiter '|'
+ 1213  ./dsdgen -scale -f 10 -dir /tmp -delimiter '|'
+ 1214  ./dsdgen -scale -force 10 -dir /tmp -delimiter '|'
+ 1215  ./dsdgen -scale 10 -dir /tmp -delimiter '|'
+ 1216  ./dsdgen -scale 10 -dir '/home/tarun/Desktop/tpcds_data_generator/100 GB/temp'  -delimiter '|'
+ 1217  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z"
+ 1218  ./dsdgen -scale 10 -dir '/home/tarun/Desktop/tpcds_data_generator/100 GB/temp'  -delimiter '|'
+ 1219  history
+ 1220  cd ..
+ 1221  docker build -t tarun/hello-world
+ 1222  docker build -t hello-world
+ 1223  docker build -t tarun/hello-world .
+ 1224  ls
+ 1225  cd hello-world/
+ 1226  ls
+ 1227  docker build -t tarun/hello-world .
+ 1228  sudo docker build -t tarun/hello-world .
+ 1229  sudo docker image ls
+ 1230  sudo docker build -t tarun/hello-world .
+ 1231  sudo docker run 7eda2e7c6de7
+ 1232  sudo docker run 7eda2e7c6de7 &
+ 1233  docker ps
+ 1234  sudo docker ps
+ 1235  sudo docker run 7eda2e7c6de7 &
+ 1236  sudo docker ps
+ 1237  sudo docker inspect 2897eb1f892a
+ 1238  sudo docker ps
+ 1239  sudo docker inspect 2897eb1f892a
+ 1240  sudo docker ps
+ 1241  sudo docker inspect 2897eb1f892a
+ 1242  sudo docker inspect 3b8530eecf8f
+ 1243  sudo docker build -t tarun/hello-world .
+ 1244  sudo docker ps
+ 1245  sudo docker rm 2897eb1f892a 
+ 1246  sudo docker stop 2897eb1f892a 
+ 1247  sudo docker stop 3b8530eecf8f 
+ 1248  docker build -t hello-world
+ 1249  docker build -t hello-world .
+ 1250  sudo docker build -t hello-world .
+ 1251  sudo docker ps
+ 1252  sudo docker images
+ 1253  sudo docker rm 7eda2e7c6de7 
+ 1254  docker image rm 7eda2e7c6de7 
+ 1255  sudo docker image rm 7eda2e7c6de7 
+ 1256  sudo docker image rm -f 7eda2e7c6de7 
+ 1257  sudo docker images
+ 1258  sudo docker build -t hello-world .
+ 1259  history | grep "jar"
+ 1260  sudo docker images
+ 1261  sudo docker run 820c1aeaa321
+ 1262  sudo docker run 820c1aeaa321 &
+ 1263  docker ps
+ 1264  sudo docker ps
+ 1265  docker inspect 351c9e2b36bc 
+ 1266  sudo docker inspect 351c9e2b36bc 
+ 1267  sudo docker pa
+ 1268  sudo docker ps
+ 1269  history | grep "java"
+ 1270  ./mvnw package && java -jar target/gs-spring-boot-docker-0.1.0.jar
+ 1271  java -jar target/hello-world-0.0.1-SNAPSHOT.jar
+ 1272  docker ps
+ 1273  sudo docker ps
+ 1274  sudo docker rm 351c9e2b36bc
+ 1275  sudo docker stop 351c9e2b36bc
+ 1276  sudo docker image rm 351c9e2b36bc
+ 1277  java -jar target/hello-world-0.0.1-SNAPSHOT.jar
+ 1278  ps
+ 1279  ls
+ 1280  java -jar target/hello-world-0.0.1-SNAPSHOT.jar
+ 1281  sudo docker build -t tarun/hello-world
+ 1282  sudo docker build -t tarun/hello-world .
+ 1283  sudo docker run tarun/hello-wrld
+ 1284  sudo docker run tarun/hello-world
+ 1285  java -jar target/hello-world-0.0.1-SNAPSHOT.jar
+ 1286  sudo docker build -t tarun/hello-world .
+ 1287  sudo docker run tarun/hello-wrld
+ 1288  sudo docker run tarun/hello-world
+ 1289  sudo docker ps
+ 1290  sudo docker images
+ 1291  docker rm image 65d785f9ba16
+ 1292  sudo docker rm image 65d785f9ba16
+ 1293  history
+ 1294  sudo docker images
+ 1295  sudo docker image rm 65d785f9ba16
+ 1296  sudo docker image -f  rm 65d785f9ba16
+ 1297  sudo docker ps
+ 1298  sudo docker image rm 65d785f9ba16
+ 1299  sudo docker image rm  820c1aeaa321 
+ 1300  sudo docker image rm -f  820c1aeaa321 
+ 1301  docker ps
+ 1302  sudo docker ps
+ 1303  sudo docker images
+ 1304  sudo docker rm 65d785f9ba16
+ 1305  sudo docker image rm 65d785f9ba16
+ 1306  sudo docker rm  904bce1ca9cb
+ 1307  sudo docker image rm 65d785f9ba16
+ 1308  sudo docker rm  904bce1ca9cb
+ 1309  sudo docker image rm 65d785f9ba16
+ 1310  java -jar target/hello-world-0.0.1-SNAPSHOT.jar
+ 1311  java -jar target/hello-world-0.0.1-SNAPSHOT.jar &
+ 1312  ./mnvw package
+ 1313  ps
+ 1314  kill -09 16317
+ 1315  ps
+ 1316  tree .
+ 1317  grep -r "music" .
+ 1318  tree .
+ 1319  cat music.txt 
+ 1320  java -jar target/hello-world-0.0.1-SNAPSHOT.jar &
+ 1321  sudo docker images
+ 1322  sudo docker build -t tarun/hello-world .
+ 1323  sudo docker images
+ 1324  sudo docker hello-world
+ 1325  sudo docker build -t hello-world .
+ 1326  sudo docker images .
+ 1327  sudo docker images 
+ 1328  sudo docker run 65d785f9ba16 &
+ 1329  docker ps
+ 1330  sudo docker ps
+ 1331  docker rm e79084597e1c
+ 1332  sudo docker rm e79084597e1c
+ 1333  sudo docker stop e79084597e1c
+ 1334  sudo docker rm e79084597e1c
+ 1335  sudo docker stop ab41d0396f72
+ 1336  sudo docker rm ab41d0396f72
+ 1337  sudo docker ps
+ 1338  sudo docker images
+ 1339  sudo docker rm image 65d785f9ba16
+ 1340  sudo rm image 65d785f9ba16
+ 1341  history
+ 1342  sudo docker images
+ 1343  sudo docker image rm 65d785f9ba16
+ 1344  sudo docker image -f rm 65d785f9ba16 
+ 1345  sudo docker image rm 65d785f9ba16 
+ 1346  sudo docker image rm hello-world 
+ 1347  sudo docker image rm 65d785f9ba16 
+ 1348  sudo docker image -f rm 65d785f9ba16 
+ 1349  sudo docker image --force rm 65d785f9ba16 
+ 1350  sudo docker image rm -f 65d785f9ba16 
+ 1351  sudo docker images
+ 1352  sudo docker build -t hello-world .
+ 1353  java -jar target/hello-world-0.0.1-SNAPSHOT.jar &
+ 1354  ps
+ 1355  kill -09 32478
+ 1356  java -jar target/hello-world-0.0.1-SNAPSHOT.jar &
+ 1357  sudo docker images
+ 1358  sudo docker image rm -f 8cbbd1723ae9
+ 1359  sudo docker build -t hello-world .
+ 1360  sudo docker images
+ 1361  sudo docker run aa6b1314d3ee
+ 1362  java -jar target/hello-world-0.0.1-SNAPSHOT.jar &
+ 1363  ps
+ 1364  tree .
+ 1365  cd src/main/java/com/demo/helloworld/
+ 1366  cat HelloWorldApplication.java
+ 1367  cd ..
+ 1368  cd ../../../
+ 1369  ./mvnw clean package
+ 1370  java -jar target/hello-world-0.0.1-SNAPSHOT.jar &
+ 1371  ps
+ 1372  kill -09 3041
+ 1373  java -jar target/hello-world-0.0.1-SNAPSHOT.jar &
+ 1374  ps
+ 1375  kill -09 5385
+ 1376  kill -09 4385
+ 1377  java -jsudo docker build -t hello-world .
+ 1378  sudo docker build -t hello-world .
+ 1379  sudo docker run
+ 1380  sudo docker images
+ 1381  sudo docker run 93a77c35d383
+ 1382  sudo docker ps
+ 1383  sudo docker run 93a77c35d383 &
+ 1384  htop
+ 1385  make
+ 1386  ./dsdgen -scale 10 -dir '/home/tarun/Desktop/tpcds_data_generator/100 GB/temp'  -delimiter '|'
+ 1387  ./dsdgen -scale 10 -dir '/home/tarun/Desktop/tpcds_data_generator/100GB/temp  -delimiter '|'
+ 1388  '
+ 1389  ./dsdgen -scale 10 -dir '/home/tarun/Desktop/tpcds_data_generator/100GB/temp'  -delimiter '|'
+ 1390  '
+ 1391  ./dsdgen -scale 1 -dir '/home/tarun/Desktop/tpcds_data_generator/100GB/temp'  -delimiter '|'
+ 1392  ./dsdgen –scale 100 –dir '/home/tarun/Desktop/tpcds_data_generator/100GB/temp' –parallel 4 –child 1 & dsdgen –scale 100 –dir '/home/tarun/Desktop/tpcds_data_generator/100GB/temp' –parallel 4 –child 2 & dsdgen –scale 100 –dir '/home/tarun/Desktop/tpcds_data_generator/100GB/temp' –parallel 4 –child 3 & dsdgen –scale 100 –dir '/home/tarun/Desktop/tpcds_data_generator/100GB/temp' –parallel 4 –child 4 &
+ 1393  ./dsdgen –scale 100 –dir '/home/tarun/Desktop/tpcds_data_generator/100GB/temp' –parallel 4 –child 1 & ./dsdgen –scale 100 –dir '/home/tarun/Desktop/tpcds_data_generator/100GB/temp' –parallel 4 –child 2 & ./dsdgen –scale 100 –dir '/home/tarun/Desktop/tpcds_data_generator/100GB/temp' –parallel 4 –child 3 & ./dsdgen –scale 100 –dir '/home/tarun/Desktop/tpcds_data_generator/100GB/temp' –parallel 4 –child 4 &
+ 1394  ls
+ 1395  ./dsdgen –scale 100 –dir '/home/tarun/Desktop/tpcds_data_generator/100GB/temp' –parallel 4 –child 1 & ./dsdgen –scale 100 –dir '/home/tarun/Desktop/tpcds_data_generator/100GB/temp' –parallel 4 –child 2 & ./dsdgen –scale 100 –dir '/home/tarun/Desktop/tpcds_data_generator/100GB/temp' –parallel 4 –child 3 & ./dsdgen –scale 100 –dir '/home/tarun/Desktop/tpcds_data_generator/100GB/temp' –parallel 4 –child 4 &
+ 1396  ./dsdgen -help
+ 1397  ./dsdgen –scale 100 –dir '/home/tarun/Desktop/tpcds_data_generator/100GB/temp' –parallel 4 –child 1 -FORCE Y & ./dsdgen –scale 100 –dir '/home/tarun/Desktop/tpcds_data_generator/100GB/temp' –parallel 4 –child 2 -FORCE Y & ./dsdgen –scale 100 –dir '/home/tarun/Desktop/tpcds_data_generator/100GB/temp' –parallel 4 –child 3 -FORCE Y & ./dsdgen –scale 100 –dir '/home/tarun/Desktop/tpcds_data_generator/100GB/temp' –parallel 4 –child 4 -FORCE Y &
+ 1398  ./dsdgen -SCALE 100 -FORCE -TERMINATE N -DIR /home/tarun/Desktop/tpcds_data_generator/100GB/temp -parallel 4 -child 1 &
+ 1399  ./dsdgen -SCALE 100 -FORCE -TERMINATE N -DIR /home/tarun/Desktop/tpcds_data_generator/100GB/temp -parallel 4 -child 2 &
+ 1400  ./dsdgen -SCALE 100 -FORCE -TERMINATE N -DIR /home/tarun/Desktop/tpcds_data_generator/100GB/temp -parallel 4 -child 3 &
+ 1401  ./dsdgen -SCALE 100 -FORCE -TERMINATE N -DIR /home/tarun/Desktop/tpcds_data_generator/100GB/temp -parallel 4 -child 1 &
+ 1402  ./dsdgen -SCALE 100 -FORCE -TERMINATE N -DIR /home/tarun/Desktop/tpcds_data_generator/100GB/temp -parallel 4 -child 2 &
+ 1403  ./dsdgen -SCALE 100 -FORCE -TERMINATE N -DIR /home/tarun/Desktop/tpcds_data_generator/100GB/temp -parallel 4 -child 3 &
+ 1404  ./dsdgen -SCALE 100 -FORCE -TERMINATE N -DIR /home/tarun/Desktop/tpcds_data_generator/100GB/temp -parallel 4 -child 4 &
+ 1405  cd '/home/tarun/Desktop/tpcds_data_generator/100GB/temp' 
+ 1406  ls
+ 1407  ls .
+ 1408  ls -a
+ 1409  cdd
+ 1410  ;
+ 1411  sudo snap install intellij-idea-community --classic
+ 1412  ssh --help
+ 1413  ssh 10.24.26.76
+ 1414  ipconfig
+ 1415  history | grep "date"
+ 1416  ls
+ 1417  cd hello-world/
+ 1418  ls
+ 1419  docker images
+ 1420  sudo docker images
+ 1421  docker run 93a77c35d383
+ 1422  sudo docker run 93a77c35d383
+ 1423  sudo docker run 93a77c35d383 &
+ 1424  sudo docker pd
+ 1425  sudo docker ps
+ 1426  sudo docker stop 6a5e629eed28
+ 1427  sudo docker ps
+ 1428  sudo docker restart 6a5e629eed28
+ 1429  sudo docker ps
+ 1430  sudo docker stop 6a5e629eed28
+ 1431  sudo docker ps -a
+ 1432  sudo docker restart 6a5e629eed28
+ 1433  docker ps
+ 1434  sudo docker ps
+ 1435  ls
+ 1436  tree .
+ 1437  history
+ 1438  tree .
+ 1439  docker images 
+ 1440  sudo docker images 
+ 1441  java -jar target/hello-world-0.0.1-SNAPSHOT.jar &
+ 1442  sudo docker images 
+ 1443  docker ps
+ 1444  sudo docker ps
+ 1445  sudo docker rm 6a5e629eed2
+ 1446  sudo docker stop  6a5e629eed28
+ 1447  sudo docker stop  94a34af6476f
+ 1448  sudo docker rm 6a5e629eed28
+ 1449  sudo docker build -t hello-world .
+ 1450  sudo docker images
+ 1451  sudo docker run hello-world
+ 1452  java -jar target/hello-world-0.0.1-SNAPSHOT.jar &
+ 1453  ps
+ 1454  kill -09 14349
+ 1455  java -jar target/hello-world-0.0.1-SNAPSHOT.jar &
+ 1456  \
+ 1457  sudo docker build -t hello-world .
+ 1458  sudo docker images 
+ 1459  sudo docker run hello-world
+ 1460  sudo docker run hello-world &
+ 1461  sudo docker ps
+ 1462  sudo docker rm 0a13ff7ba83c
+ 1463  sudo docker stop  0a13ff7ba83c
+ 1464  sudo docker rm  0a13ff7ba83c
+ 1465  sudo docker stop f355d8723a2a
+ 1466  docker ps
+ 1467  sudo docker ps
+ 1468  sudo docker run hello-world &
+ 1469  history
+ 1470  sudo docker images
+ 1471  sudo docker rm hello-world
+ 1472  sudo docker rm image 300a0421918d
+ 1473  sudo docker image rm 300a0421918d
+ 1474  sudo docker stop 1767258ce52e
+ 1475  sudo docker image rm 300a0421918d
+ 1476  sudo docker rm 1767258ce52e
+ 1477  sudo docker image rm 300a0421918d
+ 1478  sudo docker rm f355d8723a2a
+ 1479  docker ps -a
+ 1480  sudo docker ps -a
+ 1481  sudo docker rm 6d3182ba97b1
+ 1482  sudo docker image rm 300a0421918d
+ 1483  history | grep "mnv
+ 1484  "
+ 1485  history | grep "mvn"
+ 1486  exit
+ 1487  history | grep "cut"
+ 1488  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z"
+ 1489  sudo docker build -t hello-world .
+ 1490  sudo docker run hello-world
+ 1491  sudo docker run hello-world &
+ 1492  sudo docker exec -it hello-world
+ 1493  sudo docker ps
+ 1494  sudo docker exec -it 8c7a27efc0a2
+ 1495  sudo docker exec -it 8c7a27efc0a2 sh
+ 1496  sudo docker exec -it c6  sh
+ 1497  sudo docker stop 8c7a27efc0a2
+ 1498  sudo docker restart 8c7a27efc0a2
+ 1499  sudo docker exec -it 8c7a27efc0a2 sh
+ 1500  ./mnvn clean package
+ 1501  ./mvnw clean package
+ 1502  java -jar target/hello-world-0.0.1-SNAPSHOT.jar &
+ 1503  docker build -t hello .
+ 1504  sudo docker build -t hello .
+ 1505  sudo docker run hello
+ 1506  sudo docker images
+ 1507  sudo docker ps -a
+ 1508  sudo docker ps 
+ 1509  history | grep "start"
+ 1510  history | grep "cut"
+ 1511  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z
+ 1512  "
+ 1513  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z
+ 1514  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)
+ 1515  "
+ 1516  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)
+ 1517  "
+ 1518  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)"
+ 1519  vi t.c
+ 1520  java -jar h2-1.4.200.jar 
+ 1521  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)"
+ 1522  mvn spring-boot:run
+ 1523  cd bin/
+ 1524  java -jar h2-1.4.200.jar 
+ 1525  ps
+ 1526  grep | history | grep "cut"
+ 1527  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)"
+ 1528  sudo apt-get update
+ 1529  timedatectl set-local-rtc 1 --adjust-system-clock
+ 1530  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)"
+ 1531  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d ' ' -f5-8)"
+ 1532  ./mvnw clean
+ 1533  ./mvnw package
+ 1534  java -jar target/spring-boot-docker-0.0.1-SNAPSHOT.jar 
+ 1535  sudo snap remove intellij-idea-ultimate
+ 1536  sudo snap remove intellij-idea*
+ 1537  sudo snap remove intellij-idea-community
+ 1538  ./mnvw clean
+ 1539  ./mvnw clean
+ 1540  ./mvnw package
+ 1541  ./mvnw clean
+ 1542  sh idea.sh 
+ 1543  cd
+ 1544  history | grep "inte"
+ 1545  sudo snap install intellij-idea-community --classic
+ 1546  cd Desktop/springproject/
+ 1547  ls
+ 1548  cd RideService/
+ 1549  ./mvnw clean
+ 1550  ./mvnw package
+ 1551  ./mvnw clean
+ 1552  ./mvnw package
+ 1553  ./mvnw clean
+ 1554  ./mvnw package
+ 1555  ./mvnw clean
+ 1556  ./mvnw package
+ 1557  ./mvnw -X package 
+ 1558  ./mvnw clean
+ 1559  ./mvnw -X package 
+ 1560  ./mvnw package 
+ 1561  ./mvnw clean
+ 1562  ./mvnw package 
+ 1563  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1564  ./mvnw clean
+ 1565  ./mvnw package 
+ 1566  java -jar target/RideService-0.0.1-SNAPSHOT.jar &
+ 1567  ps
+ 1568  kill 14010
+ 1569  ./mvnw clean
+ 1570  ./mvnw package 
+ 1571  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1572  ps
+ 1573  kill 27277
+ 1574  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1575  ./mvnw clean
+ 1576  ./mvnw package 
+ 1577  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1578  sh idea.sh 
+ 1579  history | grep "cut"
+ 1580  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d ' ' -f5-8)"
+ 1581  git clone https://tarun18patel@bitbucket.org/prateekshyap/cabhailing.git
+ 1582  cd mas
+ 1583  ls
+ 1584  cd cabhailing/
+ 1585  git fetch && git checkout master
+ 1586  l
+ 1587  ls
+ 1588  git clone https://tarun18patel@bitbucket.org/tarun18patel/cabcompany.git
+ 1589  git status .
+ 1590  git add .
+ 1591  git commit -m "Ride Service added"
+ 1592  git push 
+ 1593  exit
+ 1594  git clone https://tarun18patel@bitbucket.org/tarun18patel/cabcompany.git
+ 1595  cd ../
+ 1596  ls
+ 1597  cd spring-boot-docker/
+ 1598  ls
+ 1599  cd ../RideService/
+ 1600  ./mvnw clean
+ 1601  ./mvnw package
+ 1602  java -jar target/RideService-0.0.1-SNAPSHOT.jar &
+ 1603  sh idea.sh 
+ 1604  subl inputfile
+ 1605  git checkout
+ 1606  git add .
+ 1607  git commit -m "RideService Added"
+ 1608  git push 
+ 1609  exit
+ 1610  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d ' ' -f5-8)"
+ 1611  cd Desktop/springproject/RideService/
+ 1612  ./mvnw clean
+ 1613  ./mvnw package
+ 1614  ./mvnw clean
+ 1615  ./mvnw package
+ 1616  ./mvnw clean
+ 1617  ./mvnw package
+ 1618  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1619  ./mvnw clean
+ 1620  ./mvnw package
+ 1621  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1622  ./mvnw clean
+ 1623  ./mvnw package
+ 1624  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1625  ./mvnw clean
+ 1626  ./mvnw package
+ 1627  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1628  ./mvnw clean
+ 1629  ./mvnw package
+ 1630  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1631  ./mvnw clean
+ 1632  ./mvnw package
+ 1633  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1634  ./mvnw clean
+ 1635  ./mvnw package
+ 1636  ./mvnw clean
+ 1637  ./mvnw package
+ 1638  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1639  ./mvnw clean
+ 1640  ./mvnw package
+ 1641  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1642  ./mvnw clean
+ 1643  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1644  ./mvnw package
+ 1645  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1646  ./mvnw clean
+ 1647  ./mvnw package
+ 1648  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1649  ./mvnw clean
+ 1650  ./mvnw package
+ 1651  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1652  cd ../cabhailing/
+ 1653  ls
+ 1654  cd Cab/
+ 1655  ls
+ 1656  ./mvnw clean
+ 1657  ./mvnw package
+ 1658  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1659  exit
+ 1660  ./mvnw clean
+ 1661  ./mvnw package
+ 1662  java -jar target/*.rar
+ 1663  ls
+ 1664  ls target/
+ 1665  ls target/Project-2-0.0.1-SNAPSHOT.jar
+ 1666  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1667  subl pom.xml 
+ 1668  ./mvnw clean
+ 1669  ./mvnw package
+ 1670  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1671  cd ../Wallet/
+ 1672  subl pom.xml 
+ 1673  ps
+ 1674  ./mvnw clean
+ 1675  ./mvnw package
+ 1676  ./a.out
+ 1677  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1678  cd ..
+ 1679  git status .
+ 1680  git commit -m "Updated pom.xm : to remove sign in page"
+ 1681  git commit -m "Updated pom.xml : to remove sign in page"
+ 1682  git add Cab/pom.xml 
+ 1683  git add Wallet/po
+ 1684  git add Wallet/pom.xml 
+ 1685  git commit -m "Updated pom.xml : to remove sign in page"
+ 1686  git push
+ 1687  cd Cab/
+ 1688  ./mvnw clean
+ 1689  ./mvnw target
+ 1690  ./mvnw package
+ 1691  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1692  exit
+ 1693  history | grep "cut"
+ 1694  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d ' ' -f5-8)"
+ 1695  shutdown -r now
+ 1696  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1697  ./mvnw clean
+ 1698  ./mvnw package
+ 1699  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1700  ./mvnw clean
+ 1701  ./mvnw package
+ 1702  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1703  ./mvnw clean
+ 1704  ./mvnw package
+ 1705  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1706  ./mvnw clean
+ 1707  ./mvnw package
+ 1708  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1709  ./mvnw clean
+ 1710  ./mvnw package
+ 1711  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1712  ./mvnw clean
+ 1713  ./mvnw package
+ 1714  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1715  ./mvnw clean
+ 1716  ./mvnw package
+ 1717  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1718  ./mvnw clean
+ 1719  ./mvnw package
+ 1720  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1721  ./mvnw clean
+ 1722  ./mvnw package
+ 1723  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1724  ./mvnw clean
+ 1725  ./mvnw package
+ 1726  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1727  ./mvnw clean
+ 1728  ./mvnw package
+ 1729  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1730  ./mvnw clean
+ 1731  ./mvnw package
+ 1732  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1733  ./mvnw clean
+ 1734  ./mvnw package
+ 1735  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1736  ./mvnw clean
+ 1737  ./mvnw package
+ 1738  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1739  ./mvnw clean
+ 1740  ./mvnw package
+ 1741  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1742  ./mvnw clean
+ 1743  ./mvnw package
+ 1744  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1745  ./mvnw clean
+ 1746  ./mvnw package
+ 1747  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1748  ./mvnw clean
+ 1749  ./mvnw package
+ 1750  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1751  ./mvnw clean
+ 1752  ./mvnw package
+ 1753  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1754  ./mvnw clean
+ 1755  ./mvnw package
+ 1756  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1757  ./mvnw clean
+ 1758  ./mvnw package
+ 1759  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1760  ./mvnw clean
+ 1761  ./mvnw package
+ 1762  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1763  ./mvnw clean
+ 1764  ./mvnw package
+ 1765  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1766  ./mvnw clean
+ 1767  ./mvnw package
+ 1768  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1769  ./mvnw clean
+ 1770  ./mvnw package
+ 1771  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1772  ./mvnw clean
+ 1773  ./mvnw package
+ 1774  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1775  ./mvnw clean
+ 1776  ./mvnw package
+ 1777  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1778  sh idea.sh 
+ 1779  exit
+ 1780  cd Desktop/springproject/cabhailing/Wallet/
+ 1781  ./mvnw clean
+ 1782  ./mvnw package
+ 1783  ./mvnw clean
+ 1784  ./mvnw package
+ 1785  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1786  ./mvnw clean
+ 1787  ./mvnw package
+ 1788  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1789  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d ' ' -f5-8)"
+ 1790  exit
+ 1791  git status
+ 1792  git add .
+ 1793  git reset --hard 380b8c8
+ 1794  git commit -m "Inter communication added"
+ 1795  git status
+ 1796  git commit -m "Inter communication added"
+ 1797  git status
+ 1798  git add .
+ 1799  git commit -m "Inter communication added"
+ 1800  git push
+ 1801  git push -f master master
+ 1802  git push -f master
+ 1803  git push -f 
+ 1804  ls
+ 1805  git status
+ 1806  git add .
+ 1807  git commit -m "testcases added"
+ 1808  git push'
+ 1809  git push
+ 1810  exit
+ 1811  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1812  ./mvnw clean
+ 1813  ./mvnw package
+ 1814  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1815  ./mvnw clean
+ 1816  ./mvnw package
+ 1817  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1818  exit
+ 1819  cd Desktop/springproject/cabhailing/Cab/
+ 1820  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1821  ./mvnw clean
+ 1822  ./mvnw package
+ 1823  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1824  exit
+ 1825  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1826  ./mvnw clean
+ 1827  ./mvnw package
+ 1828  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1829  exit
+ 1830  sh idea.sh 
+ 1831  exit
+ 1832  sh public1.sh 
+ 1833  ls
+ 1834  cd ..
+ 1835  ls
+ 1836  cd testcases/
+ 1837  sh public1.sh 
+ 1838  exit
+ 1839  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d ' ' -f5-8)"
+ 1840  htop
+ 1841  exit
+ 1842  subl tarun1.sh
+ 1843  jupyter notebook
+ 1844  cd Desktop/springproject/cabhailing/Wallet/
+ 1845  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1846  ./mvnw clean
+ 1847  ./mvnw package
+ 1848  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1849  ssh
+ 1850  sh tarun1.sh 
+ 1851  curl -s http://localhost:8080/signIn?cabId=102\&initialPos=10
+ 1852  sh tarun1.sh 
+ 1853  ls
+ 1854  subl tarun1.sh 
+ 1855  sh public1.sh 
+ 1856  subl tarun1.sh 
+ 1857  sh public1.sh 
+ 1858  subl tarun1.sh 
+ 1859  sh tarun1.sh 
+ 1860  sh public1.sh 
+ 1861  sh tarun1.sh 
+ 1862  curl -s http://localhost:8080/signIn?cabId=101\&initialPos=0
+ 1863  curl -s http://localhost:8081/requestRide?custId=201\&sourceLoc=2\&destinationLoc=10
+ 1864  sh tarun1.sh 
+ 1865  (curl -s http://localhost:8080/signOut?cabId=101)
+ 1866  sh t2.sh 
+ 1867  sh public2.sh 
+ 1868  subl t2.sh
+ 1869  cat t1.sh 
+ 1870  cd ..
+ 1871  git status .
+ 1872  git pull
+ 1873  history | grep "push"
+ 1874  git add .
+ 1875  git commit -m "Updated RideService and added test cases"
+ 1876  git push -f
+ 1877  git pull
+ 1878  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d ' ' -f5-8)"
+ 1879  cd Desktop/springproject/cabhailing/Cab/
+ 1880  ./mvnw clean
+ 1881  ./mvnw package
+ 1882  cat sample
+ 1883  cd 
+ 1884  cat sample
+ 1885  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d ' ' -f5-8)"
+ 1886  minikube start
+ 1887  minikube start --driver=docker
+ 1888  kubectl get po -A
+ 1889  sudo snap install kubectl
+ 1890  sudo snap install kubectl --classic
+ 1891  kubectl get po -A
+ 1892  htop
+ 1893  subl Dockerfile
+ 1894  ./mvnw clean
+ 1895  ./mvnw package
+ 1896  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1897  cd ../cabhailing/
+ 1898  cdCab
+ 1899  cd Cab
+ 1900  java -jar target/Project-2-0.0.1-SNAPSHOT.jar 
+ 1901  exit
+ 1902  rexit
+ 1903  exit
+ 1904  exit
+ 1905  sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d ' ' -f5-8)"
+ 1906  cd idea-IC-203.7148.57/
+ 1907  cd bin/
+ 1908  sh idea.sh 
+ 1909  exit
+ 1910  cd ../RideService/
+ 1911  ./mvnw clean
+ 1912  ./mvnw package
+ 1913  docker build -t "ride" .
+ 1914  subl DOckerfile
+ 1915  docker build -t "ride" .
+ 1916  subl Dockerfile
+ 1917  docker build -t "ride" .
+ 1918  sudo docker build -t "ride" .
+ 1919  sudo docker run ride
+ 1920  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1921  sudo docker ps
+ 1922  ping 127.0.0.1:8081
+ 1923  curl -s http://127.0.0.1:8081
+ 1924  curl -s http://127.0.0.1:8081/reset
+ 1925  curl -s http://127.0.0.1:8081/inputfile
+ 1926  cd ../Wallet/
+ 1927  ./mvnw clean
+ 1928  ./mvnw package
+ 1929  ls
+ 1930  sudo docker build -t "Wallet" .
+ 1931  sudo docker build -t "wallet" .
+ 1932  sudo docker run -p 127.0.0.1:80:8080/tcp wallet
+ 1933  sudo docker run -p 127.0.0.1:80:8082/tcp wallet
+ 1934  sudo docker run -p 127.0.0.1:8082:8080/tcp wallet
+ 1935  cd ../RideService/
+ 1936  ls
+ 1937  sudo docker build -t "ride" .
+ 1938  history | grep docker
+ 1939  sudo docker ps
+ 1940  sudo docker run -p 127.0.0.1:8081:8081/tcp "ride"
+ 1941  ./mvnw clean
+ 1942  ./mvnw package
+ 1943  ./mvnw clean
+ 1944  ./mvnw package
+ 1945  sudo docker build -t "ride" .
+ 1946  sudo docker run -p 127.0.0.1:8081:8081/tcp "ride"
+ 1947  ./mvnw clean
+ 1948  ./mvnw package
+ 1949  sudo docker build -t "ride" .
+ 1950  sudo docker run -p 127.0.0.1:8081:8081/tcp "ride"
+ 1951  ./mvnw clean
+ 1952  ./mvnw package
+ 1953  sudo docker build -t "ride" .
+ 1954  sudo docker run -p 127.0.0.1:8081:8081/tcp "ride"
+ 1955  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1956  sudo docker build -t "ride" .
+ 1957  java -jar target/RideService-0.0.1-SNAPSHOT.jar 
+ 1958  sudo docker build -t "ride" .
+ 1959  sudo docker run -p 127.0.0.1:8081:8081/tcp "ride"
+ 1960  ./mvnw clean
+ 1961  ./mvnw package
+ 1962  sudo docker build -t "ride" .
+ 1963  sudo docker run -p 127.0.0.1:8081:8081/tcp "ride"
+ 1964  ./mvnw clean
+ 1965  ./mvnw package
+ 1966  ./mvnw clean
+ 1967  ./mvnw package
+ 1968  sudo docker build -t "ride" .
+ 1969  sudo docker run -p 127.0.0.1:8081:8081/tcp "ride"
+ 1970  ./mvnw clean
+ 1971  ./mvnw package
+ 1972  sudo docker build -t "ride" .
+ 1973  sudo docker run -p 127.0.0.1:8081:8081/tcp "ride"
+ 1974  ./mvnw clean
+ 1975  ./mvnw package
+ 1976  sudo docker run -p 127.0.0.1:8081:8081/tcp "ride"
+ 1977  sudo docker build -t "ride" .
+ 1978  sudo docker run -p 127.0.0.1:8081:8081/tcp "ride"
+ 1979  ./mvnw clean
+ 1980  ./mvnw package
+ 1981  sudo docker build -t "ride" .
+ 1982  docker network create external-api
+ 1983  sudo docker network create external-api
+ 1984  docker run --network "external-api" --name "app" -p 127.0.0.1:8081:8081 ride
+ 1985  sudo docker run --network "external-api" --name "app" -p 127.0.0.1:8081:8081 ride
+ 1986  ./mvnw clean
+ 1987  ./mvnw package
+ 1988  sudo docker network create external-api
+ 1989  sudo docker build -t "ride" .
+ 1990  sudo docker run --network "external-api" --name "ride" -p 127.0.0.1:8081:8081 ride
+ 1991  ./mvnw clean
+ 1992  ./mvnw package
+ 1993  sudo docker build -t "ride" .
+ 1994  sudo docker run --network "external-api" --name "ride" -p 127.0.0.1:8081:8081 ride
+ 1995  sudo docker ps -a
+ 1996  sudo docker rm d0f9008587391f38ca794d5c51034b3e2297b38127badb851be6f68bc22ed9fd
+ 1997  sudo docker run --network "external-api" --name "ride" -p 127.0.0.1:8081:8081 ride
+ 1998  history
+ 1999  cd ..
+ 2000  history >> history.txt
